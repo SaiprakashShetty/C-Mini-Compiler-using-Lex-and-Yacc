@@ -1,0 +1,21 @@
+TYPE : KEYWORD		NAME :  char		VALUE :      
+TYPE : KEYWORD		NAME :   int		VALUE :      
+TYPE : KEYWORD		NAME : float		VALUE :      
+TYPE : KEYWORD		NAME :  void		VALUE :      
+TYPE : KEYWORD		NAME :  main		VALUE :      
+TYPE : KEYWORD		NAME :   for		VALUE :      
+TYPE : KEYWORD		NAME : struct		VALUE :      
+
+TYPE :   int		NAME :     n		VALUE :    37
+TYPE :   int		NAME :     i		VALUE :     1
+TYPE :   int		NAME : factors		VALUE : (n%i==0)
+TYPE :   int		NAME : isprime		VALUE : (factors==2)
+
+TYPE : KEYWORD		NAME :  char		VALUE :      
+TYPE : KEYWORD		NAME :   int		VALUE :      
+TYPE : KEYWORD		NAME : float		VALUE :      
+TYPE : KEYWORD		NAME :  void		VALUE :      
+TYPE : KEYWORD		NAME :  main		VALUE :      
+TYPE : KEYWORD		NAME :   for		VALUE :      
+TYPE : KEYWORD		NAME : struct		VALUE :      
+
