@@ -10,3 +10,5 @@ int main()
 	int isprime = (factors == 2) ? 1 : 0;
 	// if n is prime, isprime == 1, else isprime == 0
 }
+
+

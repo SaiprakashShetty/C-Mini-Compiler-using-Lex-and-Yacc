@@ -1,7 +1,8 @@
 #include<stdio.h>
 void main()
 {
-        int b = a*b;
+		int a=10;
+        int b=20;
         while( a > b ){
                 a = a+1;
         }
