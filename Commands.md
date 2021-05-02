@@ -1,0 +1,36 @@
+(1) Lexical Analysis
+lex lexer.l
+./a.out
+
+(2) Syntax Analysis
+lex parser.l
+yacc -d parser.y
+gcc y.tab.c -ll -w
+./a.out test1.c
+
+(3) Semantic Analysis
+lex parser.l
+yacc parser.y
+cc y.tab.h -ll
+./a.out test2.c
+
+(4) Abstract Syntax Tree
+yacc -d AST.y
+lex AST.l
+gcc -g y.tab.c lex.yy.c graph.c -ll -o AST
+./AST < input.c
+
+(5) Intermediate Code Generation
+lex parser.l
+yacc parser.y
+gcc y.tab.c -ll -ly
+./a.out test.c
+
+(6) ICG in quadruple format
+lex icg_quad.l
+yacc icg_quad.y
+gcc y.tab.c -ll -ly -w
+./a.out
+
+(7) Code Optimization
+python3 OptimizeICG.py output_file.txt
